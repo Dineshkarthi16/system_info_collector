@@ -60,3 +60,9 @@ pyinstaller --onefile --hidden-import=dotenv system_info.py
 
 GUI version:
 pyinstaller --onefile --hidden-import=dotenv system_info_gui.py
+
+### 💻 Running the Executable (.exe)
+
+1. Navigate to the folder where your `.exe` file is generated (usually in the `dist/` folder).  
+2. Copy the `.exe` file to your Desktop (or any convenient location).  
+3. Double-click the `.exe` file to run the application — no Python installation required.  
